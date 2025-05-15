@@ -79,6 +79,7 @@ public class Main {
     public static void exercise3Testing() {
         IfStatements ifLab = new IfStatements();
 
+        //og tests
         System.out.println("Given that year = 1983, the lab should return \"No\" and it returns the following: ");
         int year = 1983;
         String output = ifLab.exercise3(year);
@@ -96,6 +97,27 @@ public class Main {
 
         System.out.println("Given that year = 1996, the lab should return \"Yes\" and it returns the following: ");
         year = 1996;
+        output = ifLab.exercise3(year);
+        System.out.println(output);
+
+        //official tests
+        System.out.println("Given that year = 2025, the lab should return \"No\" and it returns the following: ");
+        year = 2025;
+        output = ifLab.exercise3(year);
+        System.out.println(output);
+
+        System.out.println("Given that year = 1900, the lab should return \"Not quite\" and it returns the following: ");
+        year = 1900;
+        output = ifLab.exercise3(year);
+        System.out.println(output);
+
+        System.out.println("Given that year = 2024, the lab should return \"Yes\" and it returns the following: ");
+        year = 2024;
+        output = ifLab.exercise3(year);
+        System.out.println(output);
+
+        System.out.println("Given that year = 2000, the lab should return \"Yes\" and it returns the following: ");
+        year = 2000;
         output = ifLab.exercise3(year);
         System.out.println(output);
     }

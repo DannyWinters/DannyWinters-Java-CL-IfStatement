@@ -27,6 +27,7 @@ public class IfStatements {
      * @return - "Positive", "Negative", or "Zero" depending on the input.
      */
     public String exercise2(int x) {
+        //og
         if(x>0){
             return "Positive";
         }
@@ -36,6 +37,8 @@ public class IfStatements {
         else{
             return "Zero";
         }
+        //official
+        
     }
 
     /**
@@ -60,7 +63,7 @@ public class IfStatements {
                     return "Yes";
                 }
                 else{
-                    return "Not quite!";
+                    return "Not quite";
                 }
             }
             else{
