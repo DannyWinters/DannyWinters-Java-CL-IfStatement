@@ -63,10 +63,10 @@ public class IfStatements {
                     return "Not quite!";
                 }
             }
+            else{
+                return "Yes";
+            }
         }
-        else{
-            return "No";
-        }
-        return "Yes";
+        return "No";
     }
 }
